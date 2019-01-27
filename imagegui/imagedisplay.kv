@@ -1,0 +1,164 @@
+#: import NoTransition kivy.uix.screenmanager.NoTransition
+
+ScreenManagement:
+    transition: NoTransition()
+    InitiationScreen:
+    OriginalScreen:
+    DiscernedScreen:
+    MaskScreen:
+<CustButton@Button>:
+    font_size: 20
+    color: 0.1, 0.1, 0.1, 1
+    size_hint_x: 20
+    background_normal:
+    background_down:
+<InitiationScreen>:
+
+
+<OriginalScreen>:
+
+    name: "original"
+    AnchorLayout:
+        anchor_x: "left"
+        anchor_y: "top"
+        BoxLayout:
+            size_hint_y: None
+            height: "30dp"
+            spacing: 10
+            Label:
+                text: ""
+                size_hint_x: 0.1
+            CustButton:
+                text: "Original"
+                backgroud_color: 1,0,0,1
+                size_hint_x: 0.1
+            CustButton:
+                text: "Discerned"
+                on_release: app.root.current = "discerned"
+                size_hint_x: 0.1
+            CustButton:
+                text: "Mask"
+                size_hint_x: 0.1
+                on_release: app.root.current = "mask"
+            Label:
+                text: ""
+                size_hint_x: 0.4
+    AnchorLayout:
+        anchor_x:"center"
+        anchor_y:"center"
+        Image:
+            source: "images/LabHome.jpg"
+            allow_stretch: True
+            keep_ratio: True
+            size_hint_x:0.5
+            padding: 100
+    AnchorLayout:
+        anchor_x:"left"
+        anchor_y:"top"
+
+        BoxLayout:
+            orientation: "vertical"
+            Button:
+                text: "Drop the image to\n be analyzed here."
+                size_hint_x: 0.1
+                on_press: app.on_file_drop()
+            Label:
+                background_color: 1,0,1,1
+                text: "Kill Me"
+                size_hint_x: 0.1
+<DiscernedScreen>:
+    name: "discerned"
+    AnchorLayout:
+        anchor_x: "left"
+        anchor_y: "top"
+        BoxLayout:
+            size_hint_y: None
+            height: "30dp"
+            spacing: 10
+            Label:
+                text: ""
+                size_hint_x: 0.1
+            CustButton:
+                size_hint_x: 0.1
+                text: "Original"
+                on_release: app.root.current = "original"
+            CustButton:
+                size_hint_x: 0.1
+                text: "Discerned"
+            CustButton:
+                size_hint_x: 0.1
+                text: "Mask"
+                on_release: app.root.current = "mask"
+            Label:
+                text: ""
+                size_hint_x: 0.4
+        AnchorLayout:
+            anchor_x:"center"
+            anchor_y:"center"
+            Image:
+                source: "images/LabHome.jpg"
+                allow_stretch: True
+                keep_ratio: True
+                size_hint_x:0.5
+                padding: 100
+        AnchorLayout:
+            anchor_x:"left"
+            anchor_y:"top"
+
+            BoxLayout:
+                orientation: "vertical"
+                Button:
+                    text: "Drop the image to\n be analyzed here."
+                    size_hint_x: 0.1
+                Label:
+                    background_color: 1,0,1,1
+                    text: "Kill Me"
+                    size_hint_x: 0.1
+<MaskScreen>:
+    name: "mask"
+    AnchorLayout:
+        anchor_x: "left"
+        anchor_y: "top"
+        BoxLayout:
+            size_hint_y: None
+            height: "30dp"
+            spacing: 10
+            Label:
+                text: ""
+                size_hint_x: 0.1
+            CustButton:
+                size_hint_x: 0.1
+                text: "Original"
+                on_release: app.root.current = "original"
+            CustButton:
+                size_hint_x: 0.1
+                text: "Discerned"
+                on_release: app.root.current = "discerned"
+            CustButton:
+                size_hint_x: 0.1
+                text: "Mask"
+            Label:
+                text: ""
+                size_hint_x: 0.4
+        AnchorLayout:
+            anchor_x:"center"
+            anchor_y:"center"
+            Image:
+                source: "images/LabHome.jpg"
+                allow_stretch: True
+                keep_ratio: True
+                size_hint_x:0.5
+                padding: 100
+        AnchorLayout:
+            anchor_x:"left"
+            anchor_y:"top"
+
+            BoxLayout:
+                orientation: "vertical"
+                Button:
+                    text: "Drop the image to\n be analyzed here."
+                    size_hint_x: 0.1
+                Label:
+                    background_color: 1,0,1,1
+                    text: "Kill Me"
+                    size_hint_x: 0.1
