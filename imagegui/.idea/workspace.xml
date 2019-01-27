@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="036bbdf6-02e9-4e70-8530-d8bfce51520f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../ImageRecognition/venv/Scripts/mainFunctions.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ImageRecognition/venv/Scripts/imageDeconstruction.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ImageRecognition/venv/Scripts/imageDeconstruction.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ImageRecognition/venv/Scripts/mainFunctions.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ImageRecognition/venv/Scripts/mainFunctions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gui.py" beforeDir="false" afterPath="$PROJECT_DIR$/../gui.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../imagedisplay.kv" beforeDir="false" afterPath="$PROJECT_DIR$/../imagedisplay.kv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/imagegui.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/imagegui.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui.py" beforeDir="false" afterPath="$PROJECT_DIR$/../gui.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imagedisplay.kv" beforeDir="false" afterPath="$PROJECT_DIR$/../imagedisplay.kv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mainwindow.kv" beforeDir="false" afterPath="$PROJECT_DIR$/../mainwindow.kv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../images/LabHome.jpg" beforeDir="false" />
     </list>
     <ignored path=".idea/" />
@@ -21,8 +21,8 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/imagegui$gui__1_.coverage" NAME="gui (1) Coverage Results" MODIFIED="1548586470872" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
     <SUITE FILE_PATH="coverage/imagegui$prodcon_kivy.coverage" NAME="prodcon_kivy Coverage Results" MODIFIED="1548587052271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../../../../Desktop/7614895-fc08f7ee8c4831594be50a4b8e5be42e9bc695bf" />
-    <SUITE FILE_PATH="coverage/imagegui$gui.coverage" NAME="gui Coverage Results" MODIFIED="1548605595406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/imagegui$mainFunctions.coverage" NAME="mainFunctions Coverage Results" MODIFIED="1548605872639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../ImageRecognition/venv/Scripts" />
+    <SUITE FILE_PATH="coverage/imagegui$gui.coverage" NAME="gui Coverage Results" MODIFIED="1548607676088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/imagegui$mainFunctions.coverage" NAME="mainFunctions Coverage Results" MODIFIED="1548606369755" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../ImageRecognition/venv/Scripts" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -55,17 +55,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../imagedisplay.kv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="62" column="24" selection-start-line="62" selection-start-column="24" selection-end-line="62" selection-end-column="24" />
+            <state relative-caret-position="255">
+              <caret line="61" column="34" selection-start-line="61" selection-start-column="34" selection-end-line="61" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../gui.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="71" column="44" selection-start-line="71" selection-start-column="44" selection-end-line="71" selection-end-column="44" />
+            <state relative-caret-position="306">
+              <caret line="104" column="54" selection-start-line="104" selection-start-column="54" selection-end-line="104" selection-end-column="54" />
+              <folding>
+                <element signature="e#23#33#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -73,8 +76,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../ImageRecognition/venv/Scripts/imageDeconstruction.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="34" />
+            <state relative-caret-position="646">
+              <caret line="38" column="35" lean-forward="true" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -82,11 +85,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../ImageRecognition/venv/Scripts/mainFunctions.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="4" column="147" selection-start-line="4" selection-start-column="147" selection-end-line="4" selection-end-column="147" />
+            <state relative-caret-position="204">
+              <caret line="124" column="29" lean-forward="true" selection-start-line="87" selection-start-column="3" selection-end-line="124" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/matplotlib/contour.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -104,6 +116,7 @@
     <findStrings>
       <find>label</find>
       <find>ids</find>
+      <find>get_path</find>
       <find>original</find>
     </findStrings>
   </component>
@@ -118,10 +131,10 @@
         <option value="$PROJECT_DIR$/imagedisplay.kv" />
         <option value="$PROJECT_DIR$/gui.py" />
         <option value="$USER_HOME$/Downloads/mainFunctions.py" />
-        <option value="$PROJECT_DIR$/../imagedisplay.kv" />
-        <option value="$PROJECT_DIR$/../gui.py" />
         <option value="$PROJECT_DIR$/../ImageRecognition/venv/Scripts/imageDeconstruction.py" />
         <option value="$PROJECT_DIR$/../ImageRecognition/venv/Scripts/mainFunctions.py" />
+        <option value="$PROJECT_DIR$/../imagedisplay.kv" />
+        <option value="$PROJECT_DIR$/../gui.py" />
       </list>
     </option>
   </component>
@@ -201,7 +214,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.mainFunctions">
+  <component name="RunManager" selected="Python.gui">
     <configuration name="gui (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="imagegui" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -292,8 +305,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.mainFunctions" />
         <item itemvalue="Python.gui" />
+        <item itemvalue="Python.mainFunctions" />
         <item itemvalue="Python.prodcon_kivy" />
         <item itemvalue="Python.gui (1)" />
       </list>
@@ -310,12 +323,12 @@
       <option name="presentableId" value="Default" />
       <updated>1548535807979</updated>
       <workItem from="1548535813831" duration="45688000" />
-      <workItem from="1548588477500" duration="17269000" />
+      <workItem from="1548588477500" duration="19261000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62957000" />
+    <option name="totallyTimeSpent" value="64949000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -340,7 +353,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="SciView" order="3" visible="true" weight="0.3295302" />
       <window_info anchor="right" id="Database" order="4" weight="0.32957748" />
     </layout>
     <layout-to-restore>
@@ -407,24 +420,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../imagedisplay.kv">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/matplotlib/contour.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="62" column="24" selection-start-line="62" selection-start-column="24" selection-end-line="62" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../gui.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="71" column="44" selection-start-line="71" selection-start-column="44" selection-end-line="71" selection-end-column="44" />
+        <state relative-caret-position="170">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../ImageRecognition/venv/Scripts/imageDeconstruction.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="34" />
+        <state relative-caret-position="646">
+          <caret line="38" column="35" lean-forward="true" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
@@ -433,8 +439,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../ImageRecognition/venv/Scripts/mainFunctions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="4" column="147" selection-start-line="4" selection-start-column="147" selection-end-line="4" selection-end-column="147" />
+        <state relative-caret-position="204">
+          <caret line="124" column="29" lean-forward="true" selection-start-line="87" selection-start-column="3" selection-end-line="124" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../imagedisplay.kv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="61" column="34" selection-start-line="61" selection-start-column="34" selection-end-line="61" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gui.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="104" column="54" selection-start-line="104" selection-start-column="54" selection-end-line="104" selection-end-column="54" />
+          <folding>
+            <element signature="e#23#33#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
