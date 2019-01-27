@@ -4,10 +4,9 @@ Config.set('graphics', 'position', 'custom')
 Config.set('graphics', 'left', 20)
 Config.set('graphics', 'top',  40)
 Config.set('graphics', 'resizable', 0)
-
+from imageDeconstruction import imageDeconstruction
 from kivy.core.window import Window
 Window.size = (1280, 720)
-
 from kivy.app import App
 from kivy.lang import Builder
 from kivy.uix.widget import Widget
@@ -41,6 +40,8 @@ class mainWindow(App):
 
     def _on_file_drop(self, window, file_path):
         self.root.current = "original"
+        print(file_path)
+
         return file_path
 # initiates the running of the program
 main = mainWindow()

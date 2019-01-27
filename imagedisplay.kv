@@ -13,7 +13,8 @@ ScreenManagement:
     background_normal:
     background_down:
 <InitiationScreen>:
-
+    Label:
+        text: "Place your image file here"
 
 <OriginalScreen>:
 
@@ -58,10 +59,7 @@ ScreenManagement:
 
         BoxLayout:
             orientation: "vertical"
-            Button:
-                text: "Drop the image to\n be analyzed here."
-                size_hint_x: 0.1
-                on_press: app.on_file_drop()
+
             Label:
                 background_color: 1,0,1,1
                 text: "Kill Me"
