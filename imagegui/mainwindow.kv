@@ -1,0 +1,38 @@
+<CustButton@Button>:
+    font_size: 32
+    color: 0.1, 0.1, 0.1, 1
+
+    background_normal:
+    background_down:
+
+# pos_hint represents the position using either x, y, left,
+# right, top, bottom, center_x, or center_y
+windowElements:
+<windowElements>:
+    FloatLayout:
+        AnchorLayout:
+            anchor_x: "left"
+            anchor_y: "top"
+            BoxLayout:
+                size_hint_y: None
+                height: "30dp"
+                spacing: 10
+                CustButton:
+                    size_hint_x: 15
+                    text: "Original"
+                    on_release: app.root.current = "original"
+                CustButton:
+                    size_hint_x: 15
+                    text: "Discerned"
+                    on_release: app.root.current = "discerned"
+                CustButton:
+                    size_hint_x: 15
+                    text: "Mask"
+                    on_release: app.root.current = "mask"
+                Label:
+                    text: ""
+                    size: 600, 20
+        AnchorLayout:
+            anchor_x:"left"
+            anchor_y:"bottom"
+
